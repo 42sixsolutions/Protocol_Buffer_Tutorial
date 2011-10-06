@@ -1,0 +1,10 @@
+package proto_example;
+
+option java_outer_classname = "SocialNetworkUser";
+
+message User {
+	required string name=1;
+	optional int32 num_likes=2;
+	optional int32 num_photos=3;
+	optional int32 num_groups=4;
+}
